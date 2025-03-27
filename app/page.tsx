@@ -1,7 +1,12 @@
+import Link from "next/link";
+
 export default function PublicPage() {
   return (
     <div>
-    Public Page
+    <Link href="/builder-page">
+    Go to builder page
+    </Link>
+    
     </div>
   );
 }
