@@ -1,6 +1,9 @@
 import { builder } from "@builder.io/sdk";
 import { RenderBuilderContent } from "./builder";
 import Link from "next/link";
+
+export const dynamic = "force-dynamic";
+
 builder.init("9d2e860e4a03432eb4be7dbd1d6a6c3e");
 
 export default async function BuilderPage() {
